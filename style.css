@@ -1,0 +1,89 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.country-label {
+  position: absolute;
+  pointer-events: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.milestones-wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.milestones-text {
+  color: grey;
+  font-size: 4px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 20px;
+  left: 3.5px;
+}
+.milestones-header {
+  position: absolute;
+  font-size: 7px;
+  color: white;
+  white-space: nowrap;
+}
+.milestones-paragraph {
+  position: absolute;
+  font-size: 4px;
+  color: grey;
+  white-space: nowrap;
+}
+.head1{
+  top: 25px;
+  left: 3.5px;
+}
+.par1{
+  top: 50px;
+  left: 3.5px;
+}
+.head2{
+  top: 90px;
+  left: 3.5px;
+  font-size: 6px;
+}
+.par2{
+  top: 97px;
+  left: 3.5px;
+}
+.head3{
+  top: 90px;
+  left: 80px;
+  font-size: 6px;
+}
+.par3{
+  top: 97px;
+  left: 80px;
+}
+.head4{
+  top: 114px;
+  left: 3.5px;
+  font-size: 6px;
+}
+.par4{
+  top: 120px;
+  left: 3.5px;
+}
+.head5{
+  top: 114px;
+  left: 80px;
+  font-size: 6px;
+}
+.par5{
+  top: 120px;
+  left: 80px;
+}
+.break {
+  display: block;
+}
